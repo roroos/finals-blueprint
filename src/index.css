@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Type scale: the only four text sizes of the interface (Tailwind text-small / text-body / text-title / text-heading).
+     src/typeScale.test.ts rejects any other font size in the components. */
+  :root {
+    --text-small: 11px; /* captions, assumptions, secondary lines */
+    --text-body: 12px; /* default text, buttons */
+    --text-title: 14px; /* card titles, advice headlines */
+    --text-heading: 16px; /* window title, team money */
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    background: #0b0c0f;
+    color: #e7e9ee;
+    font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  }
+}
