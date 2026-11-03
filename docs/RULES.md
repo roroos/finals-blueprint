@@ -78,6 +78,7 @@ Conclusion: Ranked Cashout is live as of 2026-11-03. Caveat: [WS] says the curre
 | **Conflict** | 20 % of $22,000 is $4,400, not $4,000. Either the box is $20,000 or the bonus is not exactly 20 %. The code uses the listed bonus ($4,000) and stores `value − bonus`; see `rules.ts` | [W] (internal conflict) |
 | Is the 20 % split used in the final round | **UNKNOWN** — [W] says the split applies "in the knockout rounds" only | — |
 | Several Cash Boxes in one station | allowed; the stored value adds up | [W] |
+| Does inserting into another team's running station make you the owner | **UNKNOWN** — ownership of a *new* cashout goes to the last holder of the box; Double Jeopardy's wording ("if their team is not the owner") suggests the inserter can stay a non-owner, so the code assumes ownership does not change | [W] |
 | Does each extra box also pay its 20 % on insert | **UNKNOWN** (assumed yes, configurable) | — |
 | Double Jeopardy (since Season 9) | inserting a **second** Cash Box into an already active station marks the inserting team; if that team does **not** own the station when its timer ends, it **instantly loses 50 % of its total cash** | [W] |
 | Double Jeopardy when the second box goes into your **own** running station | **UNKNOWN** — the wording ("an already active Cashout Station") does not exclude it; the advisor assumes it applies | — |
