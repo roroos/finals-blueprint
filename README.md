@@ -55,6 +55,15 @@ npm run typecheck && npm run lint && npm test && npm run build
 
 After a build, `npm start` opens the built app in Electron.
 
+## Using it during a match
+
+1. Pick the round (Round 1, Round 2, Final) and start the clock when the round starts (or set it with −30s / −10s / +10s).
+2. Tap what happens: **Picked up box**, **Cashout started**, **Vault opened**, **+1 elimination**, **Team wiped**,
+   and for other teams **Vault / Cashout / Wiped** on their row. On a running cashout: **Stolen by …** or **Completed**.
+3. Correct any team's cash by typing it in (the HUD is the truth). **Undo** reverts the last tap.
+4. **Best plays now** shows the top 3 plays, the expected cash of each and the guesses it relies on
+   ([`docs/ADVISOR.md`](docs/ADVISOR.md)).
+
 ## Project layout
 
 - `src/services/` — pure TypeScript, no React, each with a Vitest test: game constants with their sources
