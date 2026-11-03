@@ -143,6 +143,8 @@ decisive: **finishing in the top 2 of a knockout round** (by cash), and **reachi
 
 ## 8. Things worth asking Embark (or checking in your own matches)
 
+The full, maintained list is [`OPEN_QUESTIONS.md`](OPEN_QUESTIONS.md).
+
 1. Is the deposit bonus for vaults 5 & 6 $4,000 or $4,400? Is the box $22,000?
 2. Does the 20 / 80 split apply in the final round?
 3. Is a wipe in the final round penalised, and where does the 15 % go?

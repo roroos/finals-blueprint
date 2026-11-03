@@ -73,7 +73,8 @@ After a build, `npm start` opens the built app in Electron.
   `src/typeScale.test.ts`).
 - `src/i18n/` — interface texts; `en.ts` is the reference and other languages must have the same keys (type-checked).
 - `electron/main.cjs` — one plain window, nothing else.
-- `docs/` — rules with sources, how the advisor decides, the screen-reading plan.
+- `docs/` — rules with sources (`RULES.md`), how the advisor decides (`ADVISOR.md`), the screen-reading plan
+  (`SCREEN_READING.md`) and every unanswered question (`OPEN_QUESTIONS.md`).
 
 ## License
 
